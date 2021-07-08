@@ -1,0 +1,107 @@
+.user-comment{
+    width:95vw;
+    margin:0 auto;
+    padding: 10px;
+    margin-top:18px;
+    margin-bottom:100px;
+    background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+  }
+  .user-comment h1{
+color: white;
+  }
+  .comments-section img {
+    margin-top: 0px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .comments-section p {
+    line-height: 15px;
+  margin: 0 auto 5px;
+  }
+  .comments-section{
+    height:30vw;
+    overflow-y: scroll;
+  }
+  .comments-section .comment-author {
+    font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #547ef8;
+   }
+  
+  .comments-section .comment-time {
+    font-size: 11px;
+      margin-left: 10px;
+      color: #000000;
+      border-bottom: 1px solid #ddd;
+    }
+  
+  .comments-section .comment-content {
+    font-size: 16px;
+    font-weight: 100;
+    padding-bottom: 0px;
+    line-height: 25px;
+    letter-spacing: 1px;
+        color: #fffdfd;
+  }
+  
+  .comments-section .comment-post-reply .comment-content,
+  .comments-section .comment-post-reply .comment-author {
+    color: #888888; }
+  
+  .user-comment textarea {
+    width: 98%;
+    height: 80px;
+    border: 1px solid #ffffffad;
+    border-radius: 4px;
+    padding: 10px; }
+  .comment-like-unlike span i{
+    font-size: 18px;
+      color: #547ef89e;
+      cursor: pointer;
+      margin-right: 10px;
+      width: 30px;
+      height: 25px;
+      text-align: center;
+      line-height: 25px;
+  }
+  .comment-like-unlike span i:hover{
+    color: #0040ff;
+    transition: 0.3s ease-in-out;
+  }
+  .comment-post, .comment-post-reply{
+    display: flex;
+    margin-bottom: 25px;
+  }
+  .comment-details{
+    margin-left: 25px;
+  }
+  .comment-post-reply{
+    margin-left: 85px;
+    margin-bottom: 40px;
+  }
+  .comments-section{
+    padding-top: 40px;
+      border-top: 1px solid #ffffff;
+  }
+  .user-comment .btn--blue {
+      -webkit-box-shadow: 0 3px 32px rgba(85, 126, 248, .54);
+      box-shadow: 0 3px 32px rgba(85, 126, 248, .54);
+      background-color: #557ef8;
+      padding: 0 40px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      height: 50px;
+      line-height: 50px;
+      color: #fff;
+      font-size: 16px;
+      display: inline-block;
+      border: none;
+      font-family: Catamaran;
+      font-weight: 400;
+    text-decoration:none;
+    margin-top:10px;
+        float: inherit;
+  }
